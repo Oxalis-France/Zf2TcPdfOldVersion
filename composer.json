@@ -1,0 +1,32 @@
+{
+    "name": "oxalis/zf2tcpdfoldversion",
+    "description": "ZF2 module for TcPdf (tcpdf old version)",
+    "type": "module",
+    "version":"0.0.1-dev",
+    "keywords": ["tcpdf","pdf","zf2","module"],
+    "homepage": "https://github.com/Oxalis-France/Zf2TcPdfOldVersion.git",
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*"
+    },
+    "authors": [
+        {
+            "name": "Oxalis France",
+            "email": "dev@oxalis-fr.com",
+            "homepage": "http://www.oxalis-fr.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "dev@oxalis-fr.com"
+    },
+    "autoload": {
+        "psr-0": {
+            "Zf2TcPdfOldVersion": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
