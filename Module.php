@@ -6,7 +6,9 @@
  */
 namespace Zf2TcPdfOldVersion;
 
-use Zf2TcPdfOldVersion\Exception;
+if(defined('APPLICATION_PATH')) {
+    require_once APPLICATION_PATH . '/config/tcpdf_config_isem.php';
+}
 
 class Module
 {
